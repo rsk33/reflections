@@ -20,15 +20,22 @@ What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
 	In case when multiple variants of code are needed. These can be worked out in
-	different branches. Especially helpful branches can be, in case if at some
-	later point in time it becomes clear that the code of both branches needs some
-	modification ex. bugfix, in this case, the code needs to be fixed only once
-	before branching and it will then affect both branches.
+	different branches.
 
 How do the diagrams help you visualize the branch structure?
 
+	diagram visualizes commits and relationschip between them. It helps
+	understanding wheather some particular commit affects some particular branch
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	
+	merge consolidates versions of the branches beeing merged. It has connection
+	to all parrent commits to track these differences.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+	pros: no efforts needed in case if conflict is obvious and thus resolvable
+			automatically
+	cons:
