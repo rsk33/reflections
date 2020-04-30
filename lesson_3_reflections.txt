@@ -26,14 +26,17 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    It supports in resolving merge conflicts
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    using a Dropbox woud be easier than an option of sending a file via Email
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    working on a separate branch allows sharing own changes to other members
+    before it becomes merged into master. in this case code can be additionally
+    reviewed. only one merge / conflict resolution is required, which can be
+    performed at the moment when the new feature is ready.
